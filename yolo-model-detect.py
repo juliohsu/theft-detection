@@ -3,17 +3,17 @@ from ultralytics import YOLO
 
 # load model
 yolo = YOLO(
-    "C:/Users/julio/Downloads/oldlake/cyber-robbery/ai/modeling/runs/detect/train5/weights/best.pt"
+    ".../best.pt"
 )
 
 # load video capture (7 back / 16 top)
 videoCap = cv.VideoCapture(0)
 
 # hilook url
-# rtsp://admin:Admin123@192.168.80.213:554/Streaming/Channels/1602
+# rtsp://admin:Admin123@192.168.80.XXX:554/Streaming/Channels/1602
 
 # intelbras url
-# rtsp://admin:Admin123@192.168.80.144:554/cam/realmonitor?channel=1&subtype=0
+# rtsp://admin:Admin123@192.168.80.XXX:554/cam/realmonitor?channel=1&subtype=0
 
 # increase streaming quality
 videoCap.set(cv.CAP_PROP_FRAME_WIDTH, 1920)

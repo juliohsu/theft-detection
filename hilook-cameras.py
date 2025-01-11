@@ -3,7 +3,7 @@ import numpy as np
 
 # list of hilook rtsp links
 h_rtsp = [
-    f"rtsp://admin:Admin123@192.168.80.213:554/Streaming/Channels/{i}02"
+    f"rtsp://admin:Admin123@192.168.80.xxx:554/Streaming/Channels/{i}02"
     for i in range(1, 17)
 ]
 
